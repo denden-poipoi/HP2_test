@@ -1,0 +1,524 @@
+@charset "UTF-8";
+/*TOP*/
+
+.top {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.top_inner {
+  width: 40%;
+  position: relative;
+  z-index: 1;
+}
+.top_inner h1 {
+  width: 800px;
+  position: relative;
+  font-size: 100px;
+  color: #ec5752;
+  left: 130px;
+  top: -40px;
+  z-index: 2;
+}
+.top img {
+  position: relative;
+  width: 1000px;
+  left: 300px;
+  top: 100px;
+  z-index: 1;
+}
+.top_bg {
+  width: 1000px;
+  height: 555px;
+  background-color: #e2dea2;
+  position: absolute;
+  margin-top: 50px;
+  left: 350px;
+  top: 0px;
+  z-index: 0;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+/*観光すぽっと*/
+.spot {
+  margin-top: 50px;
+}
+.spot_inner {
+  width: 50%;
+  position: relative;
+  padding: 50px 100px;
+}
+.spot p {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.spot_img1 {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+  left: 750px;
+  top: 20px;
+}
+.spot_img2 {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+  left: 950px;
+  top: 180px;
+}
+.spot_bg1 {
+  width: 300px;
+  height: 300px;
+  background-color: #e2dea2;
+  position: absolute;
+  left: 850px;
+  top: 200px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.spot_bg2 {
+  width: 300px;
+  height: 300px;
+  background-color: #755248;
+  position: absolute;
+  left: 1050px;
+  top: 100px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+.spot_list {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px 10px;
+}
+.spot_block {
+  display: inline-table;
+  margin: 5px;
+  background-color: #e2dea2;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.spot_block:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.spot_body {
+  margin: 10px;
+}
+.spot_body img {
+  width: 300px;
+  height: 180px;
+}
+.spot_body h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*グルメ*/
+.eat {
+  margin-top: 50px;
+}
+.eat_inner {
+  width: 50%;
+  position: relative;
+  padding: 50px 100px;
+}
+.eat p {
+  width: 80%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.eat_img1 {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+  left: 950px;
+  top: 0px;
+}
+.eat_img2 {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+  left: 750px;
+  top: 200px;
+}
+.eat_bg1 {
+  width: 300px;
+  height: 150px;
+  background-color: #e2dea2;
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat_bg2 {
+  width: 400px;
+  height: 300px;
+  background-color: #755248;
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat_list {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px 10px;
+}
+.eat_block {
+  display: inline-table;
+  margin: 5px;
+  background-color: #e2dea2;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat_block:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat_body {
+  margin: 10px;
+}
+.eat_body img {
+  width: 300px;
+  height: 180px;
+}
+.eat_body h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*tour*/
+
+.tour .title {
+  margin-left: 100px;
+}
+.tour .detail {
+  padding: 50px 30px;
+  color: #000;
+  width: 60%;
+}
+.tour_inner {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.title_tour {
+  border-left: solid 8px #ec5752;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+.tour_1 {
+  position: relative;
+  width: 70%;
+  height: 400px;
+  overflow: hidden; /*画像が画面からはみ出ないように処理*/
+  background: url("../img/九份.png") no-repeat center;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.tour_1 .tour_inner {
+  width: 60%;
+  position: relative;
+  padding: 50px 100px;
+  left: 20%;
+  z-index: 2;
+}
+.tour h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+}
+.tour p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.tour_inner .cost {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+}
+.tour_1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /*Ｚ軸方向に重なっていく（レイヤー1）*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.tour_2 {
+  margin-top: 20px;
+  position: relative;
+  width: 70%;
+  height: 400px;
+  overflow: hidden; /*画像が画面からはみ出ないように処理*/
+  background: url("../img/士林夜市.png") no-repeat center;
+  background-size: cover;
+  float: right;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.tour_2 .tour_inner {
+  width: 60%;
+  position: relative;
+  padding: 50px 100px;
+  right: 0;
+  z-index: 2;
+}
+.tour_2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1; /*Ｚ軸方向に重なっていく（レイヤー1）*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.tour_1:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.tour_2:hover {
+  -webkit-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .top_inner h1 {
+    width: 800px;
+    position: relative;
+    font-size: 100px;
+    color: #ec5752;
+    left: 10px;
+    top: -70px;
+    z-index: 2;
+  }
+  .top img {
+    position: relative;
+    width: 90%;
+    left: 30px;
+    top: 80px;
+    z-index: 1;
+  }
+  .top_bg {
+    width: 90%;
+    height: 400px;
+    background-color: #e2dea2;
+    position: absolute;
+    left: 55px;
+    top: 0px;
+    z-index: 0;
+  }
+
+  .spot_inner {
+    position: relative;
+    padding: 0 30px;
+  }
+  .spot p {
+    width: 90%;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .spot_img1 {
+    position: absolute;
+    width: 280px;
+    z-index: 1;
+    left: 450px;
+    top: 20px;
+  }
+  .spot_img2 {
+    position: absolute;
+    width: 280px;
+    z-index: 1;
+    left: 400px;
+    top: 180px;
+  }
+  .spot_bg1 {
+    width: 200px;
+    height: 200px;
+    background-color: #e2dea2;
+    position: absolute;
+    left: 410px;
+    top: 100px;
+  }
+  .spot_bg2 {
+    width: 100px;
+    height: 150px;
+    background-color: #755248;
+    position: absolute;
+    left: 620px;
+    top: 200px;
+  }
+  .spot_list {
+    text-align: center;
+    max-width: 768px;
+    margin: 100px auto;
+    padding: 20px 10px;
+  }
+  .spot_block {
+    display: inline-table;
+    margin: 5px;
+    background-color: #e2dea2;
+    border-radius: 5px;
+  }
+  .spot_body {
+    margin: 10px;
+  }
+  .spot_body img {
+    width: 200px;
+    height: 120px;
+  }
+
+  .eat_inner {
+    position: relative;
+    padding: 0 30px;
+  }
+  .eat p {
+    width: 90%;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .eat_img1 {
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    left: 450px;
+    top: 20px;
+  }
+  .eat_img2 {
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    left: 400px;
+    top: 180px;
+  }
+  .eat_bg1 {
+    width: 250px;
+    height: 260px;
+    background-color: #e2dea2;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+  }
+    .eat_bg2 {
+    width: 200px;
+    height: 100px;
+ background-color: #755248;
+    position: absolute;
+    left: 420px;
+    top: 130px;
+  }
+  .eat_list {
+    text-align: center;
+    max-width: 768px;
+    margin: 100px auto;
+    padding: 20px 10px;
+  }
+  .eat_block {
+    display: inline-table;
+    margin: 5px;
+    background-color: #e2dea2;
+    border-radius: 5px;
+  }
+  .eat_body {
+    margin: 10px;
+  }
+  .eat_body img {
+    width: 200px;
+    height: 120px;
+  }
+
+  .tour_1 {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    overflow: hidden; /*画像が画面からはみ出ないように処理*/
+    background: url("../img/九份.png") no-repeat center;
+    background-size: cover;
+  }
+  .tour_1 .tour_inner {
+    width: 70%;
+    position: relative;
+    padding: 20px 50px;
+    left: 10%;
+    z-index: 2;
+  }
+  .tour_2 {
+    margin-top: 20px;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    overflow: hidden; /*画像が画面からはみ出ないように処理*/
+    background: url("../img/士林夜市.png") no-repeat center;
+    background-size: cover;
+    float: right;
+  }
+  .tour_2 .tour_inner {
+    width: 70%;
+    position: relative;
+    padding: 20px 50px;
+    right: 0;
+    z-index: 2;
+  }
+  .tour h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .tour p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .tour_inner .cost {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+  }
+}

@@ -1,0 +1,137 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>台湾旅行「TAIWAN TRAVEL」</title>
+  <meta name="description" content="〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇">
+  <meta name="keywords" content="IT,プログラミング,コミュニティ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="台湾旅行「TAIWAN TRAVEL」">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://withcode-plus.tech">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:description" content="「人生をコードと共に」というビジョンを達成するべく、皆さんのプログラミング学習をサポートします。">
+  <meta property="og:site_name" content="プログラミング教材">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" sizes="180×180" href="../img/logo.png">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common1.css">
+  <link rel="stylesheet" type="text/css" href="../css/common2.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="../index.html" class="logo">
+      <img src="../img/logo.png" alt="ロゴ画像">
+    </a>
+    <div class="sns_bar">
+      <nav>
+        <ul>
+          <li><a href="https://twitter.com">
+              <img src="../img/twitter.png" alt="Twitterロゴ"></a></li>
+          <li><a href="https://Instagram.com">
+              <img src="../img/instagram.png" alt="Instagramロゴ"></a></li>
+          <li><a href="https://facebook.com">
+              <img src="../img/facebook.png" alt="facebookロゴ"></a></li>
+          <li><a href="https://youtube.com">
+              <img src="../img/youtube.png" alt="youtubeロゴ"></a></li>
+        </ul>
+    </div>
+    </div>
+    <div>
+      <nav class="menu_bar">
+        <ul>
+          <li><a href="../index.html">TOP</a></li>
+          <li><a href="spot.html">観光スポット</a></li>
+          <li><a href="eat.html">グルメ</a></li>
+          <li><a href="tour.html">ツアープラン</a></li>
+          <li><a href="contact.html" class="color">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="drawer"></p>
+  </header>
+  <main>
+    <section class="contact section">
+      <div class="contact_inner">
+        <h2 class="title">お問い合わせ</h2>
+        <p class="contact_txt">
+          弊社にご興味/関心を頂き、誠に有難うございます。ツアーご予約/ご相談など、気軽にお問い合わせ下さい。弊社の担当者が内容の確認後、ご連絡させて頂きます。下記よりお問い合わせ項目を記入下さい。
+        </p>
+      </div>
+      <div class="contact_bg">
+      </div>
+      <form action="mail.php" class="contact_form" id="form" method="POST">
+        <div class="contact_box">
+          <label for="name" class="contact_form_ttl">お問い合わせ項目</label>
+          <select class="contact_form_box1" name="subject" required="required">
+            <optgroup value>
+              <option class="select_with" value="プルダウンメニューで問い合わせ内容を選択" hidden>お問い合わせ内容を選択</option>
+              <option class="select_with" value="ツアーご予約">ツアーご予約</option>
+              <option class="select_with" value="その他">その他</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="contact_box">
+          <label for="name" class="contact_form_ttl">お名前（漢字）</label>
+          <input type="text" class="contact_form_box2" name="" required="required" placeholder="お名前をご入力下さい">
+        </div>
+        <div class="contact_box">
+          <label for="email" class="contact_form_ttl">メールアドレス</label>
+          <input type="email" class="contact_form_box2" name="" required="required" placeholder="例）example@example.com">
+        </div>
+        <div class="contact_box _area">
+          <label for="message" class="contact_form_ttl _ttl">お問い合わせ内容</label>
+          <textarea name="message" class="contact_txtarea" id="message" cols="30" rows="10" required="required"
+            placeholder="お問い合わせ内容をご入力下さい"></textarea>
+        </div>
+        <button type="submit" class="contact_btn">送信する</button>
+      </form>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="footer_inner">
+      <img src="../img/logo.png" alt="ロゴ画像">
+      <ul>
+        <li><a href="https://twitter.com">
+            <img src="../img/twitter.png" alt="Twitterロゴ"></a></li>
+        <li><a href="https://Instagram.com">
+            <img src="../img/instagram.png" alt="Instagramロゴ"></a></li>
+        <li><a href="https://facebook.com">
+            <img src="../img/facebook.png" alt="facebookロゴ"></a></li>
+        <li><a href="https://youtube.com">
+            <img src="../img/youtube.png" alt="youtubeロゴ"></a></li>
+      </ul>
+      <p>
+        〒〇〇〇-〇〇〇〇<br>
+        〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇〇<br>
+        TEL 〇〇-〇〇〇〇-〇〇〇〇
+      </p>
+    </div>
+    <div class="footer_bg">
+      <div class="footer_list">
+        <ul>
+          <li><a href="spot.html">観光スポット</a></li>
+          <li><a href="eat.html">グルメ</a></li>
+          <li><a href="tour.html">ツアープラン</a></li>
+        </ul>
+        <ul>
+          <li><a href="../index.html">TOP</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+
+.content {
+  margin: 100px 0;
+  position: relative;
+}
+.txt_main{
+  width: 100%;
+  font-size: 18px;
+  color: #3b4b4d;
+  margin: 100px 150px;
+}
+
+.descript {
+  width: 40%;
+  height: 50%;
+}
+.descript_right {
+  margin-left: 60%;
+}
+
+.descript h3 {
+  font-size: 30px;
+  color: #3b4b4d;
+
+  margin: 0 80px 30px 180px;
+}
+.descript p {
+  font-size: 18px;
+  color: #3b4b4d;
+  margin: 0 50px 0 150px;
+
+}
+.descript_right h3 {
+  font-size: 30px;
+  color: #3b4b4d;
+
+  margin: 0 180px 30px 80px;
+}
+.descript_right p {
+  width: 80%;
+  font-size: 18px;
+  color: #3b4b4d;
+  margin: 0 150px 0 50px;
+
+}
+.content p strong {
+  font-weight: bold;
+  color: #3b4b4d;
+  background: linear-gradient(transparent 60%, #ffee46); /*黄色の下線*/
+}
+
+.right_img::after{
+  content: "";
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+.left_img::after{
+  content: "";
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.eat1::after{
+  background:url("../img/mango_shaved_ice.png") no-repeat center;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat2::after{
+  background:url("../img/小籠包.png") no-repeat center;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+.eat3::after{
+  background:url("../img/牛肉麺.png") no-repeat center;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .descript {
+    width: 50%;
+    height: 40%;
+  }
+
+  .descript h3 {
+    font-size: 30px;
+    color: #3b4b4d;
+
+    margin: 20px 100px;
+  }
+  .descript p {
+    font-size: 15px;
+    color: #3b4b4d;
+    margin: 0 20px 0 20px;
+  }
+  .descript_right h3 {
+    font-size: 30px;
+    color: #3b4b4d;
+
+    margin: 20px 0px;
+  }
+  .descript_right p {
+    width: 360px;
+    font-size: 15px;
+    color: #3b4b4d;
+    margin: 0;
+    position: relative;
+    left: -60px;
+  }
+  .right_img::after {
+    background-size: cover;
+
+    width: 50%;
+    height: 300px
+  }
+  .left_img::after {
+    background-size: cover;
+
+    width: 50%;
+    height: 300px;
+  }
+  .content {
+  margin: 20px 0;
+  position: relative;
+}
+.eat3{
+  margin-top: 100px;
+}
+}
